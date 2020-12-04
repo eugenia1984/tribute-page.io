@@ -52,7 +52,7 @@ img {
 
 @media (max-width: 460px) {
   #img-caption {
-    widht: 100%;
+    widht: 50%;
   }
 }
 
