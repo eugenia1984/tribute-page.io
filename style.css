@@ -1,95 +1,80 @@
-html {
-  font-size: 15px;
+body{
+  font-family: Courie;
+}
+#main {
+  margin: 30px 8px;
+  padding: 15px;
+  border-radius: 5px;
+  background: #eeeeee;
 }
 
-body {
-  /* Native font stack https://getbootstrap.com/docs/4.2/content/reboot/#native-font-stack */
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
-    'Helvetica Neue', Arial, sans-serif;
-  font-size: 1.6rem;
-  line-height: 1.5;
+header{
+  width: 100%;
+  height: 50px;
+  font: large/50px Courie;
+  background-color: #AEF107;
+  margin: 0px;
+  border-radius: 20px 20px 0px 0px;
+}
+h1, h2, h3, p{
   text-align: center;
-  color: #333;
-  margin: 0;
 }
 
-h1 {
-  font-size: 4rem;
-  margin-bottom: 0;
-  background-color: #10992D;
-  color: #F12307;
+section{
+  width: 100%;
+  height: 1100px;
+  background-color: #EAF39E;
+  margin: 0px;
 }
 
-@media (max-width: 460px) {
-  h1 {
-    font-size: 3.5rem;
-    line-height: 1.2;
-  }
-  
-  a {
-  color: #477ca7;
-}
-
-a:visited {
-  color: #74638f;
-}
-
-#main{
-background-color: #F2835C;
-text-align: center;
-color: #576A2A;
-font-family: Arial;
-margin: 30px 8px;
-padding: 15px;
-border-radius: 5px;
-}
-
-  @media (max-width: 460px) {
-  #main {
-    margin: 0;
-  }
+figure{
+  height: 370px;
+  width: 80%;
+  margin-top: 0px;
+  padding: 5%;
+  box-sizing: border-box;
+  background-color: rgba(214, 214, 210, 0.6);
+  border-radius: 30px;
+  color: #4A7C11;
 }
 
 img {
-max-width: 100%;
-display: block;
-height: auto;
-margin: 0 auto;
-}
-
-#img-div {
-background: white;
-padding: 10px;
-margin: 0;
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 20px;
 }
 
 #img-caption {
-margin: 15px 0 5px 0;
+  margin: 15px 0 5px 0;
 }
 
 @media (max-width: 460px) {
-#img-caption {
-font-size: 1.4rem;
- }
-}
-  
-#headline {
-margin: 50px 0;
-text-align: center;
+  #img-caption {
+    font-size: 1.4rem;
+  }
 }
 
-#pie{
-font-family: Arial;
-height: 50px;
-letter-spacing: 20px;
-font-weight: bolder;
-heigth: 100px;
-background-color: #10992D;
+li{
+  list-style-type: none;
+}
+#lineadetiempo{
+margin-left: 10px;
+margin-right: 5px;
 }
 
-#tribute-info{
-background-color: #10992D;
-text-decoration: none;
-letter-spacing: 10px;
-font-size: large;
+blockquot{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+footer{
+  width: 100%;
+  height: 26px;
+  letter-spacing: 2px;
+  word-spacing: 5px;
+  text-transform: uppercase;
+  margin: 0px;
+  background-color: #AEF107;
+  border-radius: 20px;
 }
