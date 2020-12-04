@@ -50,11 +50,7 @@ img {
   margin: 15px 0 5px 0;
 }
 
-@media (max-width: 460px) {
-  #img-caption {
-    font-size: 1.4rem;
-  }
-}
+
 
 li{
   list-style-type: none;
