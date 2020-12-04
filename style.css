@@ -28,7 +28,7 @@ section{
 }
 
 figure{
-  height: 370px;
+  height: 340px;
   width: 80%;
   margin-top: 0px;
   padding: 5%;
@@ -39,8 +39,7 @@ figure{
 }
 
 img {
-  width: 80%;
-  height: 300px;
+  max-width: 60%;
   display: block;
   height: auto;
   margin: 0 auto;
@@ -51,7 +50,11 @@ img {
   margin: 15px 0 5px 0;
 }
 
-
+@media (max-width: 460px) {
+  #img-caption {
+    widht: 100%;
+  }
+}
 
 li{
   list-style-type: none;
