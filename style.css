@@ -50,7 +50,7 @@ img {
   margin: 15px 0 5px 0;
 }
 
-@media (max-width: 860px) {
+@media (max-width: 1200px) {
   #img-caption {
     height: 60%;
     widht: 60%;
