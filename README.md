@@ -1,6 +1,6 @@
 # tribute-page
 _After my Web Responsive Design Course with **FreeCodeCamp** I´d made a Tribute Page of René Favaloro._
-_I use a Title, an image, an unorderer list with his biography, a linkk to his foundation as a footer.
+_I use a Title, an image, an unorderer list with his biography, a linkk to his foundation as a footer._
 
 ## Builded with 🛠️
 
