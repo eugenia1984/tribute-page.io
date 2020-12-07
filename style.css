@@ -28,7 +28,7 @@ section{
 }
 
 figure{
-  height: 340px;
+  height: auto;
   width: 80%;
   margin-top: 0px;
   padding: 5%;
